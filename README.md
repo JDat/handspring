@@ -1,4 +1,4 @@
-# hansdpring
+# handspring
 Hanspring Palm OS related experiments and tools.
 
 AutoHotSync
