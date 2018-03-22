@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Usage:
+# run this script as root
+
 # This script will create udev rule in /etc/udev/rules.d
 # and autosync script un /usr/local/bin
 # for current user
@@ -25,7 +28,8 @@
 # *) schedule (once per day, week etc) full backup
 # Righ now full backup is executed every time
 # and sync is more slow
-
+#
+# *) handle other shell than bash
 
 # script does following things
 # check for root
