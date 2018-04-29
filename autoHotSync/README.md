@@ -3,10 +3,10 @@ run this script as root
 
 This script will create udev rule in /etc/udev/rules.d
 and autosync script un /usr/local/bin
-for current user
+for current user.
 As result by pressing hotsync button on cradle
 or launching hotsync app palm device will make
-sync with linux jpilot app
+sync with linux jpilot app.
 Please close jpilot application before syncing
 
 udev rule will make symlink to /dev/pilot
@@ -30,10 +30,10 @@ and sync is more slow
 *) handle other shell than bash
 
 script does following things:
-check for root
-if not root then exit
+check for root.
+if not root then exit.
 create udev rule in /etc/udev/rules.d
 create sync script /usr/local/bin # need some minor fix
-set permissions for files
-add user to dialout
-reload udev rules
+set permissions for files.
+add user to dialout.
+reload udev rules.
