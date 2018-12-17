@@ -2,7 +2,7 @@ Usage:
 run this script as root
 
 This script will create udev rule in /etc/udev/rules.d
-and autosync script un /usr/local/bin
+and autosync script in /usr/local/bin
 for current user.
 As result by pressing hotsync button on cradle
 or launching hotsync app palm device will make
@@ -25,15 +25,15 @@ pilot user app is opened
 
 *) schedule (once per day, week etc) full backup
 Righ now full backup is executed every time
-and sync is more slow
+and sync is more slow :(
 
 *) handle other shell than bash
 
 script does following things:
-check for root.
-if not root then exit.
-create udev rule in /etc/udev/rules.d
-create sync script /usr/local/bin # need some minor fix
-set permissions for files.
-add user to dialout.
-reload udev rules.
+*) check for root.
+*) if not root then exit.
+*) create udev rule in /etc/udev/rules.d
+*) create sync script /usr/local/bin # need some minor fix
+*) set permissions for files.
+*) add user to dialout.
+*) reload udev rules.
