@@ -31,9 +31,15 @@ and sync is more slow :(
 
 script does following things:
 *) check for root.
+
 *) if not root then exit.
+
 *) create udev rule in /etc/udev/rules.d
+
 *) create sync script /usr/local/bin # need some minor fix
+
 *) set permissions for files.
+
 *) add user to dialout.
+
 *) reload udev rules.
